@@ -35,7 +35,7 @@ namespace XUnitTestProject1
         public void CanAddCard()
         {
             Deck<Card> testDeck = new Deck<Card>() { card1, card2, card3};
-                Assert.True(testDeck.Add(card1));
+                Assert.True(testDeck.Add(card4));
             
 
         }

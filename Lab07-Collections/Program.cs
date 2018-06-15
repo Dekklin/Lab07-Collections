@@ -5,13 +5,16 @@ namespace Lab07_Collections
 {
     public class Program
     {
+        //main method that only initiates the program
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             PopulateDeck();
             Console.ReadKey();
         }
-
+        // adds cards to deck, calls the shuffle method and remove method, prints cards (weird glitch i need to talk to amanda about)...
+        //maybe you know why but my LAST console.WriteLine is only printing out like 4 or 5 cards... then it stops.... however all my main
+        //functions are working
         static void PopulateDeck()
         {
             Card card1 = new Card()
@@ -110,10 +113,12 @@ namespace Lab07_Collections
             {
                 Console.WriteLine(card.Suit);
             }
+            // REMOVE FUNCTION
             myCards.Remove(card1);
-
+            //SHUFFLE FUNCTION
             myCards.Shuffle();
             int y = 0;
+            // BROKEN WRITELINE IDK WHY PLEASE SEND HELP
             foreach (Card Card in myCards)
             {
                     y++;

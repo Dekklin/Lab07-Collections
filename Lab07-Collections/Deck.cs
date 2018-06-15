@@ -6,11 +6,11 @@ using System.Text;
 namespace Lab07_Collections
 {
     public class Deck<T> : IEnumerable
-    {
+    { //istantiates our deck
         T[] deck = new T[53];
 
         int count;
-
+        // adds card to deck
         public bool Add(T card)
         {
             if(count == deck.Length)
@@ -20,7 +20,7 @@ namespace Lab07_Collections
             deck[count++] = card;
             return true;
         }
-
+        // removes card from deck
         public bool Remove(T item)
         {
             for(int i = 0; i < count; i++)
@@ -34,7 +34,7 @@ namespace Lab07_Collections
             }
             return false;
         }
-
+        // randomly places cards in random index's
         public bool Shuffle()
         {
             try
@@ -56,6 +56,7 @@ namespace Lab07_Collections
                 return false;
             }
         }
+        //black magic
         public IEnumerator<T> GetEnumerator()
         {
             for (int i = 0; i < count; i++)
@@ -63,7 +64,7 @@ namespace Lab07_Collections
                 yield return deck[i];
             }
         }
-
+        //even blacker magic
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
