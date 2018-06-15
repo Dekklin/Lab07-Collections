@@ -109,24 +109,28 @@ namespace Lab07_Collections
             };
 
             Deck<Card> myCards = new Deck<Card>() { card1, card2, card3, card4, card5, card5, card6, card7, card8, card9, card10, card11, card12, card13, card14, card15 };
+            Deal(myCards);
+            // REMOVE FUNCTION
+            myCards.Remove(card1);
+        }   
+        public static void Deal(Deck<Card> myCards)
+        {
             foreach(Card card in myCards)
             {
                 Console.WriteLine(card.Suit);
             }
-            // REMOVE FUNCTION
-            myCards.Remove(card1);
             //SHUFFLE FUNCTION
             myCards.Shuffle();
             int y = 0;
             // BROKEN WRITELINE IDK WHY PLEASE SEND HELP
             foreach (Card Card in myCards)
             {
-                    y++;
+                y++;
                 if (Card != null)
                 {
                     Console.WriteLine($"#{y} -- {Card.Color}");
                 }
             }
-        }   
+        }
     }
 }
