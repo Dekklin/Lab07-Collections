@@ -112,6 +112,8 @@ namespace Lab07_Collections
             Deal(myCards);
             // REMOVE FUNCTION
             myCards.Remove(card1);
+            // ADD FUNCTION
+            myCards.Add(card1);
         }   
         public static void Deal(Deck<Card> myCards)
         {
