@@ -1,0 +1,11 @@
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\obj\Debug\netcoreapp2.1\Lab07-Collections.csprojAssemblyReference.cache
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\obj\Debug\netcoreapp2.1\Lab07-Collections.csproj.CoreCompileInputs.cache
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\obj\Debug\netcoreapp2.1\Lab07-Collections.AssemblyInfoInputs.cache
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\obj\Debug\netcoreapp2.1\Lab07-Collections.AssemblyInfo.cs
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\bin\Debug\netcoreapp2.1\Lab07-Collections.deps.json
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\bin\Debug\netcoreapp2.1\Lab07-Collections.runtimeconfig.json
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\bin\Debug\netcoreapp2.1\Lab07-Collections.runtimeconfig.dev.json
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\bin\Debug\netcoreapp2.1\Lab07-Collections.dll
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\bin\Debug\netcoreapp2.1\Lab07-Collections.pdb
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\obj\Debug\netcoreapp2.1\Lab07-Collections.dll
+C:\Users\Owner\codefellows\401\Lab07-Collections\Lab07-Collections\obj\Debug\netcoreapp2.1\Lab07-Collections.pdb
